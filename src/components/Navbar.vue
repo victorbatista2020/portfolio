@@ -3,7 +3,7 @@
         <nav class="nav-bar">
             <div class="logo">
                 <a href="#about" class="nav-link">
-                    <h1> Salão template</h1>
+                    <h1> Victor Batista</h1>
                 </a>
             </div>
             <div class="nav-list" :class="{ open: isMenuOpen }">
@@ -54,9 +54,9 @@ function closeMenu() {
 <style>
 header {
     padding-top: 0.1rem;
-    background-color: #ad6fad;
+    background-color: #f70505;
     position: fixed;
-    box-shadow: 0px 3px 10px #464646;
+    box-shadow: 0px 3px 10px #000000;
     height: 70px;
     width: 100%;
     z-index: 1000;

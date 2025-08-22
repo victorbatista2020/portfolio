@@ -4,7 +4,7 @@ import vue from '@vitejs/plugin-vue'
 
 // Use a opção 'base' para configurar o caminho público no Vite
 export default defineConfig({
-  base: '/lojatemplate/',
+  base: '/portfolio/',
     
   plugins: [
     vue(),
