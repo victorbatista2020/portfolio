@@ -57,7 +57,7 @@ header {
     background-color: #f70505;
     position: fixed;
     box-shadow: 0px 3px 10px #000000;
-    height: 70px;
+    height: 60px;
     width: 100%;
     z-index: 1000;
 }
@@ -65,7 +65,7 @@ header {
 .nav-bar {
     display: flex;
     justify-content: space-between;
-    padding: 0.75rem 3rem;
+    padding: 0.6rem 3rem;
 }
 
 .logo {
@@ -143,7 +143,7 @@ header {
         flex-direction: column;
         text-align: center;
         padding-bottom: 1rem;
-        background-color: #021da3;
+        background-color: #f70505;
     }
 
     .mobile-menu .nav-item {
