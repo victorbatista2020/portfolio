@@ -9,7 +9,7 @@
             <div class="nav-list" :class="{ open: isMenuOpen }">
                 <ul>
                     <li class="nav-item"><a href="#about" class="nav-link">Início</a></li>
-                    <li class="nav-item"><a href="#service" class="nav-link">Serviços</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">Habilidades</a></li>
                     <li class="nav-item"><a href="#address" class="nav-link">Endereço</a></li>
                     <li class="nav-item"><a href="#contact" class="nav-link">Contato</a></li>
                 </ul>
@@ -24,7 +24,7 @@
         <div class="mobile-menu" :class="{ open: isMenuOpen }" @click="closeMenu">
             <ul>
                 <li class="nav-item"><a href="#about" class="nav-link">Início</a></li>
-                <li class="nav-item"><a href="#service" class="nav-link">Serviços</a></li>
+                <li class="nav-item"><a href="#skills" class="nav-link">Habilidades</a></li>
                 <li class="nav-item"><a href="#address" class="nav-link">Endereço</a></li>
                 <li class="nav-item"><a href="#contact" class="nav-link">Contato</a></li>
             </ul>
