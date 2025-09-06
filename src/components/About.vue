@@ -25,6 +25,28 @@
 
 
 <script lang="ts">
+import { defineComponent } from 'vue';
+
+export default defineComponent({
+    name: 'About',
+    setup() {
+        let currentSlide = 1
+        const totalSlides = 4
+
+        function changeSlide() {
+            currentSlide = (currentSlide % totalSlides) + 1
+            const slideId = `slide${currentSlide}`
+            const radioButton = document.getElementById(slideId) as HTMLInputElement
+            if (radioButton) {
+                radioButton.checked = true
+            }
+        }
+
+        setInterval(changeSlide, 5000)
+
+        return {}
+    }
+})
 </script>
 
 <style scoped>
