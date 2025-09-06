@@ -13,7 +13,7 @@ import Navbar from './components/Navbar.vue'
 import About from './components/About.vue'
 import Address from './components/Address.vue'
 import Contact from './components/Contact.vue'
-import Skills from './components/skills.vue'
+import Skills from './components/Skills.vue'
 
 
 
