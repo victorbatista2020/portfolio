@@ -1,6 +1,6 @@
 <template>
     <div class="about-content" id="about">
-        <h2>OI TUBO BEM<br><span>SOU VICTOR BATISTA</span></h2>
+        <h2>Olaa TUBO BEM<br><span>SOU VICTOR BATISTA</span></h2>
             <div class="about">
 
                Meu nome é Victor Batista, tenho graduação em Ciencia da Computação na Universidade Paulista (UNIP),
