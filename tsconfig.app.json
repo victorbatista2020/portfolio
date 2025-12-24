@@ -9,6 +9,9 @@
     "baseUrl": ".",
     "paths": {
       "@/*": ["./src/*"]
-    }
+    },
+
+    "module": "esnext",
+    "moduleResolution": "bundler"
   }
 }
